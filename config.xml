@@ -18,17 +18,20 @@
     </author>
     
 
-	<gap:plugin name="org.apache.cordova.device"/>	
-	<gap:plugin name="org.apache.cordova.statusbar"/>	
-	<gap:plugin name="org.apache.cordova.inappbrowser"/>
-	<gap:plugin name="cordova-plugin-camera" version="1.2.0"/>
-	<gap:plugin name="com.phonegap.plugins.barcodescanner"/>    
-	<gap:plugin name="de.appplant.cordova.plugin.email-composer"/>
-	<gap:plugin name="cordova-plugin-whitelist" source="npm"/>
-	<gap:plugin name="com.ionic.keyboard"/>
-	
 
-	<preference name='phonegap-version' value='cli-5.2.0' />
+	
+		<gap:plugin name="org.apache.cordova.device" source="npm"/>	
+		<gap:plugin name="org.apache.cordova.statusbar" source="npm"/>
+		<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+		<gap:plugin name="cordova-plugin-camera"  source="npm"/>
+		<gap:plugin name="phonegap-plugin-barcodescanner-ps" source="npm"/>    
+		<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm"/>
+		<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm"/>
+		<gap:plugin name="ionic-plugin-keyboard" source="npm"/>
+		<gap:plugin name="cordova-plugin-sms" source="npm"  />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" source="npm"/>
+
+
 	<preference name="orientation"      value="default" />
 	<preference name="target-device"    value="universal" />
 	<preference name="fullscreen"       value="false" />

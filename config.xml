@@ -7,7 +7,7 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Club Care</name>
+    <name>Club Care V2</name>
 
     <description>
         Club Care App 
@@ -60,7 +60,7 @@
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->
     <plugin name="cordova-plugin-whitelist" version="1" />
-    
+    <access origin="*" />
     <allow-intent href="*://*.twitter.com/*" />
   <allow-navigation href="*://*.twitter.com/*"/>
     <allow-intent href="http://*/*" />

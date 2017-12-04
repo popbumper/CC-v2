@@ -20,7 +20,7 @@
 
 
 	
-		<gap:plugin name="org.apache.cordova.device" source="npm"/>	
+		<gap:plugin name="cordova-plugin-device" source="npm"/>	
 		<gap:plugin name="org.apache.cordova.statusbar" source="npm"/>
 		<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
 		<gap:plugin name="cordova-plugin-camera"  source="npm"/>

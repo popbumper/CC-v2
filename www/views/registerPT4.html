@@ -1,4 +1,5 @@
 <script>
+
 var store = Rhaboo.persistent('policy');
 function savePolicyDetails(){
 
@@ -192,7 +193,10 @@ function onFail(message) {
 }
 
 
-
+function showPhoto6(){
+	PhotoViewer.show(document.getElementById("image6").src, 'Interior 6');
+	//alert('yahoo');
+}
 
 
 </script>
@@ -212,16 +216,17 @@ function onFail(message) {
 
 <div class="boxer">
 	<div class="box-row">
-		<div class="box"><img id="image1" src="" style="width:30%;" onclick="capturePhoto1();"><br><button class="btn btn-warning" style="width:85%;" onclick="capturePhoto1();">Exterior 1</button></div>
-		<div class="box"><img id="image2" src="" style="width:30%;" onclick="capturePhoto2();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto2();">Exterior 2</button></div>
-		<div class="box"><img id="image3" src="" style="width:30%;" onclick="capturePhoto3();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto3();">Exterior 3</button></div>
+		<div class="box"><img id="image1" src="" style="width:80px; height:80px; padding:3px;" onclick="capturePhoto1();"><br><button class="btn btn-warning" style="width:85px; padding:3px;" onclick="capturePhoto1();">Exterior 1</button></div>
+		<div class="box"><img id="image2" src="" style="width:80px; height:80px; padding:3px;" onclick="capturePhoto2();"><br><button class="btn btn-warning"  style="width:85px; padding:3px;" onclick="capturePhoto2();">Exterior 2</button></div>
+		<div class="box"><img id="image3" src="" style="width:80px; height:80px; padding:3px;" onclick="capturePhoto3();"><br><button class="btn btn-warning"  style="width:85px; padding:3px;" onclick="capturePhoto3();">Exterior 3</button></div>
 	</div>
 	<div class="box-row">
-		<div class="box"><img id="image4" src="" style="width:30%;" onclick="capturePhoto4();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto4();">Exterior 4</button></div>
-		<div class="box"><img id="image5" src="" style="width:30%;" onclick="capturePhoto5();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto5();">Interior 1</button></div>
-		<div class="box"><img id="image6" src="" style="width:30%;" onclick="capturePhoto6();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto6();">Interior 2</button></div>
+		<div class="box"><img id="image4" src="" style="width:80px; height:80px; padding:3px;" onclick="capturePhoto4();"><br><button class="btn btn-warning"  style="width:85px; padding:3px;" onclick="capturePhoto4();">Exterior 4</button></div>
+		<div class="box"><img id="image5" src="" style="width:80px; height:80px; padding:3px;" onclick="capturePhoto5();"><br><button class="btn btn-warning"  style="width:85px; padding:3px;" onclick="capturePhoto5();">Interior 1</button></div>
+		<div class="box"><img id="image6" src="" style="width:80px; height:80px; padding:3px;" onclick="showPhoto6();"><br><button class="btn btn-warning"  style="width:85px; padding:3px;" onclick="capturePhoto6();">Interior 2</button></div>
 	</div>
 </div>
+
 
 
 

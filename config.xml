@@ -20,7 +20,7 @@
 
 	<preference name='phonegap-version' value='cli-6.5.0' />
 	
-		<gap:plugin name="cordova-plugin-photo-viewer"/>	
+		<gap:plugin name="cordova-plugin-photo-viewer" source="npm"/>	
 		<gap:plugin name="cordova-plugin-device" source="npm"/>	
 		<gap:plugin name="cordova-plugin-statusbar" source="npm"/>
 		<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>

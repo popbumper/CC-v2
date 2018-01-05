@@ -18,6 +18,8 @@
     </author>
     
 
+	<gap:plugin name="es.keensoft.fullscreenimage" source="npm"/>
+	<gap:plugin name="com-sarriaroman-photoviewer" source="npm"/>	
 	<gap:plugin name="org.apache.cordova.device"/>	
 	<gap:plugin name="org.apache.cordova.statusbar"/>
 	<gap:plugin name="org.apache.cordova.inappbrowser"/>

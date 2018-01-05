@@ -13,6 +13,9 @@ clubCare.config(['$routeProvider',
       when('/about', {
         templateUrl: 'views/about.html'
       }).
+      when('/myunit', {
+        templateUrl: 'views/myunit.html'
+      }).
       when('/register', {
         templateUrl: 'views/register.html'
       }).

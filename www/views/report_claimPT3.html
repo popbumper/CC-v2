@@ -176,7 +176,13 @@ function onFail(message) {
 }
 
 
+function showPhoto1(){
+	PhotoViewer.show(document.getElementById("image1").src, 'Photo 1');
+}
 
+function showPhoto2(){
+	PhotoViewer.show(document.getElementById("image2").src, 'Photo 2');
+}
 
 
 </script>
@@ -196,8 +202,8 @@ function onFail(message) {
 
 <div class="boxer">
 	<div class="box-row">
-		<div class="box"><img id="image1" src="" style="width:30%;" onclick="capturePhoto1();"><br><button class="btn btn-warning" style="width:85%;" onclick="capturePhoto1();">Photo 1</button></div>
-		<div class="box"><img id="image2" src="" style="width:30%;" onclick="capturePhoto2();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto2();">Photo 2</button></div>
+		<div class="box"><img id="image1" src="" style="width:80px; height:80px; padding:3px;" onclick="showPhoto1();"><br><button class="btn btn-warning" style="width:85%;" onclick="capturePhoto1();">Photo 1</button></div>
+		<div class="box"><img id="image2" src="" style="width:80px; height:80px; padding:3px;" onclick="showPhoto2();"><br><button class="btn btn-warning"  style="width:85%;" onclick="capturePhoto2();">Photo 2</button></div>
 	</div>
 </div>
 

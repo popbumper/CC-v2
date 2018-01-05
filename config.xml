@@ -24,15 +24,15 @@
 		<gap:plugin name="cordova-plugin-device" source="npm"/>	
 		<gap:plugin name="cordova-plugin-statusbar" source="npm"/>
 		<gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
-		<gap:plugin name="cordova-plugin-camera"  source="npm"/>
-		   
+		<gap:plugin name="cordova-plugin-camera" source="npm"/>
+		<gap:plugin name="phonegap-plugin-barcodescanner-ps" source="npm"/> 
 		<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm"/>
 		<gap:plugin name="cordova-plugin-legacy-whitelist" source="npm"/>
 		<gap:plugin name="ionic-plugin-keyboard" source="npm"/>
 		<gap:plugin name="cordova-plugin-sms" source="npm"  />
 		<gap:plugin name="cordova-plugin-photo-viewer" source="npm"/>	
 
-
+	<preference name="permissions" value="none" />
 	<preference name="orientation"      value="default" />
 	<preference name="target-device"    value="universal" />
 	<preference name="fullscreen"       value="false" />
@@ -56,7 +56,7 @@
 	<icon src="icon.png" gap:platform="android" gap:density="xhdpi"/>
 	
 	
-  <access origin="http://www.clubcareinsurance.com" subdomains="true" />
+<access origin="*" />
 
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
     <!-- Whitelist configuration. Refer to https://cordova.apache.org/docs/en/edge/guide_appdev_whitelist_index.md.html -->

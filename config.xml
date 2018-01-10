@@ -42,9 +42,6 @@
 	    <string>We are using the Photo Library to store pictures of their items to be stored on the phone and called back into the app for emailing out in the event of a claim</string>
   </gap:config-file>
 	
-	
-	
-	
 	<preference name="orientation"      value="default" />
 	<preference name="target-device"    value="universal" />
 	<preference name="fullscreen"       value="false" />
@@ -111,7 +108,7 @@
 	<splash gap:platform="android" gap:qualifier="port-mdpi" src="res/screens/android/screen-mdpi-portrait.png" />
 	<splash gap:platform="android" gap:qualifier="port-xhdpi" src="res/screens/android/screen-xhdpi-portrait.png" />	
 	
-<access origin='*' allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
+<access origin='*'  />
  
 
     <allow-intent href="http://*/*" />

@@ -110,7 +110,7 @@
 	
 <access origin='*' allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
 
- 
+ <allow-navigation href="*" />
 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

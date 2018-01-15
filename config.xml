@@ -110,7 +110,7 @@
 	
 <access origin='*' allows-arbitrary-loads-in-media='true' allows-arbitrary-loads-in-web-content='true' allows-local-networking='true' />
 
- <allow-navigation href="*" />
+
 
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -118,6 +118,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <allow-intent href="*" />
+    <allow-navigation href="*" />
     <platform name="android">
         <allow-intent href="market:*" />
     </platform>

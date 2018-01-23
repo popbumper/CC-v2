@@ -30,7 +30,7 @@
 		<gap:plugin name="ionic-plugin-keyboard" source="npm"/>
 		<gap:plugin name="cordova-plugin-sms" source="npm"  />
 		<gap:plugin name="cordova-plugin-photo-viewer" source="npm"/>	
-
+		<gap:plugin name="pushwoosh-pgb-plugin" source="npm" />
 	
 	
 	

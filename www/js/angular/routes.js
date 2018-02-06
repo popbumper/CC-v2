@@ -79,6 +79,12 @@ clubCare.config(['$routeProvider',
        when('/productshortterm', {
         templateUrl: 'views/products_shortterm.html'
       }).
+       when('/productpets', {
+        templateUrl: 'views/products_pet.html'
+      }).
+       when('/productwarranty', {
+        templateUrl: 'views/products_warranty.html'
+      }).
       when('/claim', {
         templateUrl: 'views/claim.html'
       }).

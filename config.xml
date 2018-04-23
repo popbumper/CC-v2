@@ -3,7 +3,7 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "ClubCare"
         versionCode = "12" 
-        version     = "2.0.7" >
+        version     = "2.0.8" >
 
     <!-- versionCode is optional and Android only -->
 
@@ -84,7 +84,7 @@
 <icon src="www/res/icon/ios/Icon-App-40x40@3x.png" width="120" height="120"/>
 <icon src="www/res/icon/ios/Icon-App-60x60@2x.png" width="120" height="120"/>
 <icon src="www/res/icon/ios/Icon-App-60x60@3x.png" width="180" height="180"/>
-<icon src="www/res/icon/ios/Icon-App-76x76@1x.png" width="76" height="760"/>
+<icon src="www/res/icon/ios/Icon-App-76x76@1x.png" width="76" height="76"/>
 <icon src="www/res/icon/ios/Icon-App-76x76@2x.png" width="152" height="152"/>
 <icon src="www/res/icon/ios/Icon-App-83.5x83.5@2x.png" width="167" height="167"/>
 <icon src="www/res/icon/ios/ItunesArtwork@2x.png" width="1024" height="1024"/>
